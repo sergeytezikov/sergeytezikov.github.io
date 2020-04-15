@@ -903,7 +903,7 @@ ul {
   box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
   font-size: 14px;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50px;
@@ -984,7 +984,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   border: 1px solid #fdcb9e;
-  text-transform: uppercase;
+  text-transform: none;
   background-color: #ff7e5f;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -2439,7 +2439,7 @@ ul {
 /* line 14, E:/167 Bizcon Business/Bizcon_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p {
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 20px;
 }
 
@@ -2850,7 +2850,7 @@ ul {
   font-size: 14px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 /* line 120, E:/167 Bizcon Business/Bizcon_html/sass/_banner.scss */
@@ -3921,7 +3921,7 @@ ul {
 /* line 72, E:/167 Bizcon Business/Bizcon_html/sass/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
   color: #ff7e5f;
-  text-transform: uppercase;
+  text-transform: none;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
@@ -3998,7 +3998,7 @@ ul {
   font-size: 20px;
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 22px;
 }
 
@@ -4730,7 +4730,7 @@ ul {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 @media (max-width: 576px) {
@@ -5357,7 +5357,7 @@ h1, h2, h3, h4, h5, h6 {
 .progress-table .table-head .percentage {
   color: #415094;
   line-height: 40px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 500;
 }
 
@@ -6248,3 +6248,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: none;
+  text-indent: -9999px;
+  background: url('../img/icon_top.png') no-repeat;
+  z-index: 1;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
