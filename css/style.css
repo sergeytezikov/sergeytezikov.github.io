@@ -2737,7 +2737,7 @@ ul {
   .banner_part .banner_text {
     text-align: center;
     padding-top: 0px;
-    height: 450px;
+    height: 650px;
   }
 }
 
@@ -2746,7 +2746,7 @@ ul {
   .banner_part .banner_text {
     text-align: center;
     padding-top: 0px;
-    height: 550px;
+    height: 650px;
   }
 }
 
@@ -6274,15 +6274,4 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   width: 100%;
   position: absolute;
-}
-
-.language {
-  width: 138px;
-  height: 48px;
-  opacity: 0.5;
-  position: fixed;
-  bottom: 5px;
-  left: 8px;
-  display: block;
-  z-index: 1;
 }
